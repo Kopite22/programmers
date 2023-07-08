@@ -7,7 +7,8 @@ function solution(k, t) {
   t.forEach((i) => {
     obj[i] = ++obj[i] || 1;
   });
-  const sortObj = Object.values(obj).sort((x, y) => y - x);  let sum = 0;
+  const sortObj = Object.values(obj).sort((x, y) => y - x);
+  let sum = 0;
   for (let num of sortObj) {
     ++answer;
     sum += num;
