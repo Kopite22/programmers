@@ -20,9 +20,9 @@ function solution(a, b) {
 
 console.log(solution(a, b));
 
-
-function adder(a, b){
-    var result = 0;
-    return (a+b)*(Math.abs(b-a)+1)/2;
-    양 끝의 합 * 양 끝의 합의 갯수
-    가우스 공식 이용하면 쉽다... 와...
+function adder(a, b) {
+  var result = 0;
+  return ((a + b) * (Math.abs(b - a) + 1)) / 2;
+  // 양 끝의 합 * 양 끝의 합의 갯수
+  // 가우스 공식 이용하면 쉽다... 와...
+}
